@@ -1,0 +1,134 @@
+body {
+    background-color: #f95252;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    height: 80px;
+}
+
+header h1 {
+    margin: auto;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.search {
+    background-image: url('search.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 400px;
+    height: 20px;
+    margin: auto;
+    border-bottom: 1px solid #fff;
+}
+
+.search input {
+    border: none;
+    
+    background-color: inherit;
+    color: inherit;
+    width: 350px;
+    height: 100%;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid #fff;
+}
+
+.titles {
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid #fff;
+}
+
+.titles h3{
+    font-weight: lighter;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    width: 12.1%;
+}
+
+.titles .end {
+    border-right: none;
+}
+
+.row {
+    overflow: scroll;
+    width: 100%;
+    height: 90%;
+    background-image: url('loader.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row div{
+    width: 100%;
+}
+
+.row div:hover{
+    background-color: #fff;
+    color: #f95252;
+}
+
+.row p {
+    display: inline-block;
+    width: 12.1%;
+
+}
+
+@media screen and (max-width: 1595px) {
+    .titles h3{
+        font-size: 17px;
+        width: 12%;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1495px) {
+    .titles h3{
+        font-size: 15px;
+        width: 12%;
+    }
+    
+    p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .titles h3{
+        font-size: 11px;
+        width: 11%;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .titles h3{
+        font-size: 10px;
+        width: 12%;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+}
